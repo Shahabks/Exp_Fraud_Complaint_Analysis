@@ -5,3 +5,5 @@ Set up an experiment to compare supervised to unsupervised (done by my colleague
 
 ### Note
 Fraudulent activities are usually prosecuted, therefore fraudsters need to be creative and come up constantly with new ways of performing fraud. Furthermore, frauds are scarce (fortunately), and so we have few positive class patterns available for training. Because of these facts, it might make sense to build an unsupervised fraud detector. Using **only the training data**, create an anomaly detection model. one should also choose an error metric adequate for the problem, and tune the model parameters in order to optimize this error.
+
+This model is s content analytical model that can be either given data sets of known fraudulent behavior/text and using machine learning algorithms can “learn” to recognize and flag suspicious claims, or given data sets and let the algorithms finds any patterns in the data sets. 
