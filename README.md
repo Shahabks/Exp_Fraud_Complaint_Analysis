@@ -8,4 +8,4 @@ Fraudulent activities are usually prosecuted, therefore fraudsters need to be cr
 
 This model is s content analytical model that can be either given data sets of known fraudulent behavior/text and using machine learning algorithms can “learn” to recognize and flag suspicious claims, or given data sets and let the algorithms finds any patterns in the data sets. 
 
-Datasets https://surfdrive.surf.nl/files/index.php/s/m34LCElefSj6M8y
+Raw Datasets (examples) https://surfdrive.surf.nl/files/index.php/s/m34LCElefSj6M8y
