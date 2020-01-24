@@ -11,10 +11,9 @@ This model is s content analytical model that can be either given data sets of k
 Raw Datasets (examples) https://surfdrive.surf.nl/files/index.php/s/m34LCElefSj6M8y
 
 ### Cost-sensitive learning 
-classification can be used when the
+it is a classification method can be used when the
 “cost” of mislabelling one class is higher than that
-of mislabelling other classes (Elkan, 2001; Kukar
-et al., 1998). For example, the real cost to a bank
+of mislabelling other classes *(Elkan, 2001)*. For example, the real cost to a bank
 of miscategorising a large fraudulent transaction
 as authentic is potentially higher than miscategorising (perhaps only temporarily) a valid transaction as fraudulent. Cost-sensitive learning tackles the issue of class imbalance by changing the
 cost function of the model such that misclassification of training examples from the minority
