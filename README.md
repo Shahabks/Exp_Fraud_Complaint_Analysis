@@ -9,3 +9,16 @@ Fraudulent activities are usually prosecuted, therefore fraudsters need to be cr
 This model is s content analytical model that can be either given data sets of known fraudulent behavior/text and using machine learning algorithms can “learn” to recognize and flag suspicious claims, or given data sets and let the algorithms finds any patterns in the data sets. 
 
 Raw Datasets (examples) https://surfdrive.surf.nl/files/index.php/s/m34LCElefSj6M8y
+
+### Cost-sensitive learning 
+classification can be used when the
+“cost” of mislabelling one class is higher than that
+of mislabelling other classes (Elkan, 2001; Kukar
+et al., 1998). For example, the real cost to a bank
+of miscategorising a large fraudulent transaction
+as authentic is potentially higher than miscategorising (perhaps only temporarily) a valid transaction as fraudulent. Cost-sensitive learning tackles the issue of class imbalance by changing the
+cost function of the model such that misclassification of training examples from the minority
+class carries more weight and is thus more ‘expensive’. This is achieved by simply multiplying
+the loss of each example by a certain factor. This
+cost-sensitive learning technique takes misclassification costs into account during model training,
+and does not modify the imbalanced data distribution directly.
